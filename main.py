@@ -1,10 +1,10 @@
-#!/usr/bin/env python3/3.10
+#!/usr/bin/env python3
 #imports
 import csv
 import itertools as it
 import sv_ttk
 import tkinter as tk
-from tkinter import messagebox, ttk, Tk, BooleanVar, IntVar, StringVar
+from tkinter import messagebox, ttk, BooleanVar, IntVar, StringVar
 
 #create the root window and set the theme
 root = tk.Tk()
