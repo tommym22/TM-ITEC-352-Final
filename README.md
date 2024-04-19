@@ -24,6 +24,7 @@ For the best experience, install the **Sun Valley** theme for tkinter by typing 
 ```
 Make sure that you are also running the **Python 3.10** interpreter. You can change this by searching for Python Interpreter in the **Command Pallette**
 
+Don't want to install the theme? That's ok! Simply comment out lines 5 and 11.
 
 ![Image of the form with the theme installed](data_form.png)
 
