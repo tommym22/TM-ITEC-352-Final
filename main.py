@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python3/3.10
 """
 NOTE: To get the best experience, make sure that sv_ttk is installed. It provides a really awesome looking theme!
 type pip install sv-ttk

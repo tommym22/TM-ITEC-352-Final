@@ -3,7 +3,7 @@
 
 This is my final project for ITEC 352-Software Design For Professor Gumina. 
 
-The form consists of 
+The form consists of:
 - Labels, 
 - Entry boxes, 
 - Frames, 
@@ -17,11 +17,13 @@ It's coded entirely in Python using Tkinter.
 
 Simply open up the folder and run the code in your favorite IDE.
 
-For the best experience, install the Sun Valley theme for tkinter by typing the statement below in the terminal.
+For the best experience, install the **Sun Valley** theme for tkinter by typing the statement below in the terminal. 
 
-```bash
+```
   pip install sv-ttk
 ```
+Make sure that you are also running the **Python 3.10** interpreter. You can change this by searching for Python Interpreter in the **Command Pallette**
+
 
 ![Image of the form with the theme installed](data_form.png)
 
