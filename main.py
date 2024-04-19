@@ -1,10 +1,4 @@
 #!/usr/bin/env python3/3.10
-"""
-NOTE: To get the best experience, make sure that sv_ttk is installed. It provides a really awesome looking theme!
-type pip install sv-ttk
-Source:https://github.com/rdbende/Sun-Valley-ttk-theme
-Don't want to install? No worries! Simply comment out lines 11,16, and 17
-"""
 #imports
 import csv
 import itertools as it
@@ -80,13 +74,7 @@ class PersonalInformationFrame(ttk.Frame):
             with open('countries.csv') as file:
                 csvFile = csv.reader(file)
                 countriesList = []
-                """ itertools allows me to skip the first line where the list of countries attribute is
-                    https://stackoverflow.com/a/9578684/24402513
-                """
                 for row in it.islice(csvFile, 2, None):
-                    """ Removes the start and end chars
-                        https://stackoverflow.com/a/62707453/24402513
-                    """
                     country = (str(row) [2:-2])
                     countriesList.append(country) 
             file.close() 
